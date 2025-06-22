@@ -3,6 +3,9 @@
   "description": "Extension to assist readers with easy lookup and an annotations bookshelf.",
   "version": "1.0",
   "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_icon": "soda.png"
   }
